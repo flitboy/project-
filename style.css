@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Manrope";
+    src: url(fonts/Manrope-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Kelso Sans RU";
+    src: url(fonts/kelsonsans_regularru.otf);
+}
+
+@font-face {
+    font-family: "Oooh Baby";
+    src: url(fonts/OoohBaby-Regular.ttf);
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    height: 7490px;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(235, 235, 229); */
+}
+
+#wrapper_background {
+    width: 1440px;
+    height: 7490px;
+    position: absolute;
+    background: url(images/background/background.png), rgb(235, 235, 229);
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+
+/* #wrapper::before {
+    content: "";
+    position: absolute;
+    width: 1440px;
+    height: 7490px;
+    opacity: 0.05;
+    background: url(images/background/noise.gif);
+} */
